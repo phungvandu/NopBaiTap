@@ -1,0 +1,159 @@
+*,
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --white: white;
+  --black: black;
+  --color: black;
+}
+a {
+  text-decoration: none;
+}
+a.active {
+  border-bottom: 4px solid rgb(250, 147, 0);
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 333;
+  padding: 2% 10%;
+  color: white;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.59);
+}
+#logo {
+  width: 150px;
+  display: none;
+}
+#title-header {
+  color: rgb(250, 147, 0);
+  font-size: 2em;
+  text-shadow: black 1px 1px 1px;
+  text-decoration: underline;
+}
+#title-header:hover {
+  color: white;
+  transition: all 0.6s ease 0s;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+.menu a {
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  text-shadow: white 1px 1px 2px;
+  position: relative;
+  transition: all 0.4s ease 0s;
+}
+.menu a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  background: rgb(250, 147, 0);
+  bottom: -4px;
+  left: 0px;
+  transition: all 0.4s ease 0s;
+}
+.menu a:hover::before {
+  width: 100%;
+  transition: all 0.4s ease 0s;
+}
+.banner {
+  width: 100%;
+  height: 80vh;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 1;
+}
+.content-banner {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 3em;
+  border: 10px solid white;
+  text-align: center;
+  box-shadow: white 0px 0px 18px 0px inset;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
+.content-banner h1 {
+  color: rgb(250, 147, 0);
+  text-shadow: black 1px 1px 5px;
+}
+.content-banner p {
+  padding: 1em 0px;
+  text-shadow: black 1px 1px 5px;
+}
+.content-banner a {
+  transition: all 0.4s ease 0s;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 6px 12px;
+  border: 2px solid white;
+}
+.content-banner a:hover {
+  color: rgb(250, 147, 0);
+  transition: all 0.4s ease 0s;
+}
+.featured {
+  width: 100%;
+  height: 80vh;
+  padding: 2em 10%;
+  position: relative;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-image: url("./images/bg8.jpg");
+}
+.title-featured {
+  color: var(--color);
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product {
+  width: 33.33%;
+  padding: 2%;
+  color: rgb(0 0 0);
+  text-align: center;
+}
+.img-product {
+  width: 80%;
+  border: 2px solid black;
+}
+.title-product {
+  font-size: 1.8em;
+  color: var(--color);
+}
+.detail-product {
+  text-align: left;
+  margin: 10px 0;
+  color: var(--color);
+}
+.link-product-details {
+  color: rgb(240 131 64);
+  border: 2px solid rgb(239 121 60);
+  display: inline-block;
+  padding: 0.5em 2em;
+}
