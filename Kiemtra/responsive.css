@@ -20,6 +20,9 @@
     header {
         height: 89vh;
     }
+    .content-header {
+        top: 45%;
+    }
     .logo img {
         width: 155px;
     }
@@ -41,7 +44,7 @@
     }
     .content-header a {
         font-size: .5em;
-        padding: 15px 4em;
+        padding: 10px 4em;
     }
     .feature h1 {
         font-size: 2em;
@@ -51,5 +54,43 @@
     .feature p {
         font-size: .8em;
         width: 80%;
+    }
+    .wrap-type {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .sometype {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .type {
+        width: 60%;
+    }
+    .type p {
+        line-height: 17px;
+        color: #565656;
+    }
+    .type h3 {
+        margin: 10px 0;
+        font-size: 1.1em;
+    }
+    .type img {
+        margin: 20px 0 0 0;
+        width: 45px;
+        height: 45px;
+    }
+    .banner img {
+        margin: 20px 0 0 0;
+    }
+    .feature {
+        padding: 35px 0 0 0;
+    }
+    .latest {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .latest-l {
+    }
+    .latest-r {
     }
 }
