@@ -8,8 +8,9 @@ html {
   box-sizing: border-box;
 }
 :root {
-  --white: white;
-  --black: black;
+  --color-key: #e0730d;
+  --color-background: #0d93d1;
+  --color-btn: rgb(194, 54, 54);
 }
 a {
   text-decoration: none;

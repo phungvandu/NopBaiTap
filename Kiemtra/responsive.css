@@ -1,0 +1,55 @@
+@media only screen and (max-width: 320px) {
+    *,
+    body,
+    html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+    :root {
+    --color-key: #000000;
+    --color-background: #2091f9;
+    --color-btn: white;
+    }
+    a {
+    text-decoration: none;
+    }
+    header {
+        height: 89vh;
+    }
+    .logo img {
+        width: 155px;
+    }
+    .menu {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+    .title-header {
+        font-size: 1.3em;
+        color: white;
+        font-weight: 200;
+    }
+    .detail-header {
+        font-size: .8em;
+        margin: 20px 0;
+        
+    }
+    .content-header a {
+        font-size: .5em;
+        padding: 15px 4em;
+    }
+    .feature h1 {
+        font-size: 2em;
+        margin: 0 0 20px 0;
+        font-weight: 200;
+    }
+    .feature p {
+        font-size: .8em;
+        width: 80%;
+    }
+}
