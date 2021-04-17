@@ -24,7 +24,8 @@
         top: 45%;
     }
     .logo img {
-        width: 155px;
+        width: 200px;
+        padding: 0 0 0 30px;
     }
     .menu {
         display: none;
@@ -89,8 +90,19 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .latest-l {
+    .latest-l a {
+        padding: 10px 40px;
+        display: inline-block;
+        margin: 0 25%;
+        width: 50%;
+        text-align: center;
     }
-    .latest-r {
+    .latest-l h2 {
+        font-size: 1.5em;
+    text-align: center;
+    }
+    .latest-l p {
+        font-size: 1em;
+    text-align: center;
     }
 }

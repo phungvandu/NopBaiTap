@@ -95,8 +95,6 @@ header .menu-logo-social {
 }
 .feature p {
     font-size: 26px;
-    width: 34%;
-    margin: 0 auto;
 }
 .sometype {
     display: flex;
@@ -156,4 +154,82 @@ header .menu-logo-social {
 .latest-r img {
     width: 100%;
 }
+.latest1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.partners {
+    text-align: center;
+}
+.partners .title-partners {}
+.partners .title-partners p {
+    margin: 25px 0;
+}
+.partners .title-partners h1 {
+    font-weight: 200;
+}
+.partners div img {
+    width: 55%;
+}
+.linkpartners {
+    background: var(--color-background);
+    color: var(--color-btn);
+    padding: 10px 50px;
+    display: inline-block;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.testimo {
 
+text-align: center;
+
+margin: 90px 0 0 0;
+}
+.testimo h1 {
+    font-weight: 100;
+    margin: 0 0 10px 0;
+}
+.testimo img {
+    width: 180px;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+.user img {
+    width: 50px;
+    border-radius: 50%;
+}
+.user p {
+    text-align: left;
+    margin: 5px 0 0 10px;
+}
+.pricing {
+    padding: 80px 0;
+    margin: 60px 0 0 0;
+    text-align: center;
+    background: #10163a;
+}
+.pricing .title-pricing h1 {
+    color: white;
+    margin: 10px 0;
+}
+.pricing .title-pricing p {
+    color: white;
+    margin: 0 0 40px 0;
+}
+.content-pricing {
+    display: flex;
+    justify-content: center;
+}
+.content-pricing img {
+    margin: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content-pricing img:nth-child(odd) {
+    width: 210px;
+    height: 307px;
+    margin: 25px 0 0 0;
+}
