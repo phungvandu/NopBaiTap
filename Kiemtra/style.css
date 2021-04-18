@@ -16,6 +16,9 @@ html {
 a {
   text-decoration: none;
 }
+a:hover {
+    color: brown!important;
+}
 
 /* header------------------------------------------ */
 
@@ -227,6 +230,7 @@ margin: 90px 0 0 0;
     margin: 0 20px;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 .content-pricing img:nth-child(odd) {
     width: 210px;
@@ -280,18 +284,31 @@ margin: 90px 0 0 0;
     background: var(--color-background);
     outline: none;
     border: none;
+    cursor: pointer;
+    color: white;
 }
-.content-pri-r {}
+.content-pri-r {
+    width: 50%;
+}
 .contact-r {
     display: flex;
     padding: 25px 0;
+    justify-content: space-around;
+}
+.contact-r i {
+    color: var(--color-background);
+    margin: 0 0 15px 0;
+}
+.contact-r p {
+    color: grey;
 }
 .map iframe{
-    width: 100%;
-    height: 160px;
+    width: 60%;
+    height: 170px;
 }
 .contact-social {
-    padding: 40px 0;
+    padding: 40px 70px;
+    text-align: left;
 }
 .contact-social a {
     color: var(--color-background);
