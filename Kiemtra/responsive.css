@@ -196,4 +196,7 @@
     .block {
         display: block;
     }
+    .content-pri-l textarea {
+        max-width: 260px;
+    }
 }
