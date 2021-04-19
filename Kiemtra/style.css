@@ -164,9 +164,7 @@ header .menu-logo-social {
 .partners {
     text-align: center;
 }
-.partners .title-partners {
-    padding: 75px 0 15px 0;
-}
+.partners .title-partners {}
 .partners .title-partners p {
     margin: 25px 0;
 }
@@ -280,6 +278,8 @@ margin: 90px 0 0 0;
     min-height: 140px;
     min-width: 240px;
     max-height: 300px;
+    margin: 10px 0 0 0;
+    width: 100%;
 }
 .content-pri-l button {
     padding: 10px 60px;
