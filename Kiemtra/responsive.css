@@ -29,6 +29,12 @@
     }
     .menu {
         display: none;
+        background: #ebebeb5e;
+        right: 0;
+        top: 0;
+        position: absolute;
+        padding: 80px 20px;
+        flex-direction: column;
     }
     .social {
         display: none;
@@ -44,8 +50,8 @@
         
     }
     .content-header a {
-        font-size: .5em;
-        padding: 10px 4em;
+        font-size: 0.9em;
+        padding: 12px 40px;
     }
     .feature h1 {
         font-size: 2em;
@@ -91,11 +97,11 @@
         flex-wrap: wrap;
     }
     .latest-l a {
-        padding: 10px 40px;
         display: inline-block;
         margin: 0 25%;
         width: 50%;
         text-align: center;
+        padding: 8px 10px;
     }
     .latest-l h2 {
         font-size: 1.5em;
@@ -143,11 +149,6 @@
         text-align: center;
         padding: 0;
     }
-    .pricing .title-pricing p {
-        color: black;
-        margin: 0 0 30px 0;
-        padding: 0 50px;
-    }
     footer {
         display: flex;
         flex-wrap: wrap;
@@ -166,5 +167,33 @@
     text-align: center;
     margin: 20px 0 0 0;
     }
-    .title-pricing {}
+    .pricing .title-pricing p {
+        color: black;
+        margin: 0 0 30px 0;
+        padding: 0 50px;
+    }
+    .targetmenu {
+        display: block;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        right: 40px;
+        top: 76px;
+    }
+    .delete {
+        display: none;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        background: red;
+        padding: 2px 6px;
+    }
+    .hiden {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
 }

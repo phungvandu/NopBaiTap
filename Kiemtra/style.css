@@ -269,14 +269,15 @@ margin: 90px 0 0 0;
     width: 50%;
 }
 .content-pri-l textarea {
-    width: 100%;
     outline: none;
     border-radius: 5px;
     padding: 6px;
-    margin: 10px 0 0 0;
     border: none;
     background: #f1f1f1;
-    height: 120px;
+    max-width: 260px;
+    min-height: 140px;
+    min-width: 240px;
+    max-height: 300px;
 }
 .content-pri-l button {
     padding: 10px 60px;
@@ -351,4 +352,10 @@ footer {
 }
 .social-ft {
     justify-content: end;
+}
+.targetmenu {
+    display: none;
+}
+.delete {
+    display: none;
 }
