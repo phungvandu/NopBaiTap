@@ -105,4 +105,59 @@
         font-size: 1em;
     text-align: center;
     }
+    .content-pricing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-pricing img:nth-child(odd), .content-pricing img:nth-child(even) {
+        margin: 0 0 20px 0;
+    }
+    .contact-us .content-pricing {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content-pri-l {
+        width: 100%;
+    }
+    .content-pri-l form {
+        width: 80%;
+    }
+    .map {
+        display: none;
+    }
+    .content-pri-r {
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    }
+    .content-pri-r .contact-r {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .content-pri-r .contact-social {
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .table {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .footer-r div {
+        margin: 20px 0 0 0;
+    }
+    .social-ft {
+        display: block;
+    text-align: center;
+    margin: 20px 0 0 0;
+    }
 }
