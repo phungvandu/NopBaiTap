@@ -164,7 +164,9 @@ header .menu-logo-social {
 .partners {
     text-align: center;
 }
-.partners .title-partners {}
+.partners .title-partners {
+    padding: 60px 0 0 0;
+}
 .partners .title-partners p {
     margin: 25px 0;
 }
