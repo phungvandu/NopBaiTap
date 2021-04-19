@@ -2,20 +2,20 @@
     *,
     body,
     html {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
     }
     :root {
-    --color-key: #000000;
-    --color-background: #2091f9;
-    --color-btn: white;
+        --color-key: #000000;
+        --color-background: #2091f9;
+        --color-btn: white;
     }
     a {
-    text-decoration: none;
+        text-decoration: none;
     }
     header {
         height: 89vh;
@@ -99,11 +99,11 @@
     }
     .latest-l h2 {
         font-size: 1.5em;
-    text-align: center;
+        text-align: center;
     }
     .latest-l p {
         font-size: 1em;
-    text-align: center;
+        text-align: center;
     }
     .content-pricing {
         display: flex;
@@ -127,10 +127,10 @@
     }
     .content-pri-r {
         width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
     .content-pri-r .contact-r {
         width: 80%;
@@ -141,6 +141,12 @@
     }
     .content-pri-r .contact-social {
         text-align: center;
+        padding: 0;
+    }
+    .pricing .title-pricing p {
+        color: black;
+        margin: 0 0 30px 0;
+        padding: 0 50px;
     }
     footer {
         display: flex;
@@ -160,4 +166,5 @@
     text-align: center;
     margin: 20px 0 0 0;
     }
+    .title-pricing {}
 }
