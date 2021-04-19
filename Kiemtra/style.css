@@ -225,6 +225,7 @@ margin: 90px 0 0 0;
 .content-pricing {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .content-pricing img {
     margin: 0 20px;
@@ -320,6 +321,7 @@ footer {
     padding: 5% 10%;
     background: #10163a;
     color: white;
+    overflow: hidden;
 }
 .table {
     width: 70%;
