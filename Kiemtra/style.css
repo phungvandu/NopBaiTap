@@ -217,6 +217,12 @@ header .menu-logo-social {
   text-align: center;
   background: #10163a;
 }
+.title-pricing p {
+  color: white !important;
+}
+.contact-us .title-pricing p {
+  color: black !important;
+}
 .pricing .title-pricing h1 {
   color: white;
   margin: 10px 0;
