@@ -222,13 +222,14 @@ header .menu-logo-social {
   margin: 10px 0;
 }
 .pricing .title-pricing p {
-  color: white;
+  color: black;
   margin: 0 0 40px 0;
 }
 .content-pricing {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  align-items: center;
 }
 .content-pricing img {
   margin: 0 20px;
@@ -249,6 +250,7 @@ header .menu-logo-social {
   color: black;
 }
 .content-pri-l h2 {
+  margin: 20px 0;
 }
 .content-pri-l form {
   padding: 20px;
@@ -310,7 +312,7 @@ header .menu-logo-social {
 }
 .map iframe {
   width: 60%;
-  height: 170px;
+  height: 330px;
 }
 .contact-social {
   padding: 40px 70px;
