@@ -6,7 +6,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 :root {
   --color-key: #000000;
@@ -17,349 +17,359 @@ a {
   text-decoration: none;
 }
 a:hover {
-    color: brown!important;
+  color: brown !important;
 }
 
 /* header------------------------------------------ */
 
-
 header {
-    background-image: url(./images/background.png);
-    height: 125vh;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
+  background-image: url(./images/background.png);
+  height: 125vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 header .menu-logo-social {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0 0 0;
 }
 .menu {
-    display: flex;
-    list-style: none;
-    flex-grow: 2;
-    justify-content: center;
+  display: flex;
+  list-style: none;
+  flex-grow: 2;
+  justify-content: center;
 }
 .menu li a {
-    color: white;
-    padding: 6px 20px;
-    font-size: 18px;
+  color: white;
+  padding: 6px 20px;
+  font-size: 18px;
 }
 .logo {
-    flex-grow: 4;
+  flex-grow: 4;
 }
 .social {
-    flex-grow: 2;justify-content: center;display: flex;
+  flex-grow: 2;
+  justify-content: center;
+  display: flex;
 }
 .social a {
-    color: white;
-    font-size: 30px;
-    padding: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
 }
 .content-header {
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .title-header {
-    font-size: 3em;
-    color: white;
-    font-weight: bold;
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
 }
 .detail-header {
-    font-size: 26px;
-    color: white;
-    margin: 40px 0;
+  font-size: 26px;
+  color: white;
+  margin: 40px 0;
 }
 .content-header a {
-    color: white;
-    background: var(--color-background);
-    padding: 15px 70px;
-    border-radius: 60px;
-    display: inline-block;
-    margin-top: 20px;
+  color: white;
+  background: var(--color-background);
+  padding: 15px 70px;
+  border-radius: 60px;
+  display: inline-block;
+  margin-top: 20px;
 }
-
 
 /* content------------------------ */
 
 .feature {
-    text-align: center;
-    padding: 80px 0 0 0;
+  text-align: center;
+  padding: 80px 0 0 0;
 }
 .feature h1 {
-    font-size: 40px;
-    margin: 0 0 20px 0;
+  font-size: 40px;
+  margin: 0 0 20px 0;
 }
 .feature p {
-    font-size: 26px;
+  font-size: 26px;
 }
 .sometype {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .type {
-    text-align: center;
-    width: 19%;
+  text-align: center;
+  width: 19%;
 }
 .type img {
-    height: 50px;
-    margin: 30px 0;
+  height: 50px;
+  margin: 30px 0;
 }
 .type h3 {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 .type p {
-    line-height: 25px;
-    font-size: 15px;
+  line-height: 25px;
+  font-size: 15px;
 }
 .banner {
-    width: 100%;
-    padding: 0 10%;
+  width: 100%;
+  padding: 0 10%;
 }
 .banner img {
-    width: 100%;
+  width: 100%;
 }
 .somelatest {
-    width: 100%;
-    padding: 0 10%;
+  width: 100%;
+  padding: 0 10%;
 }
 .latest {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-.latest-l {padding: 10% 0;}
+.latest-l {
+  padding: 10% 0;
+}
 .latest-l h2 {
-    font-size: 36px;
-    font-weight: 200;
+  font-size: 36px;
+  font-weight: 200;
 }
 .latest-l p {
-    font-weight: bold;
-    margin: 0 0 20px 0;
-    font-size: 26px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  font-size: 26px;
 }
 .latest-l a {
-    padding: 15px 75px;
-    display: inline-block;
-    background: var(--color-background);
-    color: var(--color-btn);
-    border-radius: 100px;
-    font-weight: 600;
+  padding: 10px 50px;
+  display: inline-block;
+  background: var(--color-background);
+  color: var(--color-btn);
+  border-radius: 100px;
+  font-weight: 600;
 }
 .latest-r {
-    width: 87%;
+  width: 87%;
 }
 .latest-r img {
-    width: 100%;
+  width: 85%;
 }
 .latest1 {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .partners {
-    text-align: center;
+  text-align: center;
 }
 .partners .title-partners {
-    padding: 60px 0 0 0;
+  padding: 60px 0 0 0;
 }
 .partners .title-partners p {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 .partners .title-partners h1 {
-    font-weight: 200;
+  font-weight: 200;
 }
 .partners div img {
-    width: 55%;
+  width: 55%;
 }
 .linkpartners {
-    background: var(--color-background);
-    color: var(--color-btn);
-    padding: 10px 50px;
-    display: inline-block;
-    border-radius: 100px;
-    margin-top: 20px;
+  background: var(--color-background);
+  color: var(--color-btn);
+  padding: 10px 50px;
+  display: inline-block;
+  border-radius: 100px;
+  margin-top: 20px;
 }
 .testimo {
+  text-align: center;
 
-text-align: center;
-
-margin: 90px 0 0 0;
+  margin: 90px 0 0 0;
 }
 .testimo h1 {
-    font-weight: 100;
-    margin: 0 0 10px 0;
+  font-weight: 100;
+  margin: 0 0 10px 0;
 }
 .testimo img {
-    width: 180px;
+  width: 180px;
 }
 .user {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0 0 0;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 0 0;
 }
 .user img {
-    width: 50px;
-    border-radius: 50%;
+  width: 50px;
+  border-radius: 50%;
 }
 .user p {
-    text-align: left;
-    margin: 5px 0 0 10px;
+  text-align: left;
+  margin: 5px 0 0 10px;
 }
 .pricing {
-    padding: 80px 0;
-    margin: 60px 0 0 0;
-    text-align: center;
-    background: #10163a;
+  padding: 80px 0;
+  margin: 60px 0 0 0;
+  text-align: center;
+  background: #10163a;
 }
 .pricing .title-pricing h1 {
-    color: white;
-    margin: 10px 0;
+  color: white;
+  margin: 10px 0;
 }
 .pricing .title-pricing p {
-    color: white;
-    margin: 0 0 40px 0;
+  color: white;
+  margin: 0 0 40px 0;
 }
 .content-pricing {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 .content-pricing img {
-    margin: 0 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
+  margin: 0 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
 }
 .content-pricing img:nth-child(odd) {
-    width: 210px;
-    height: 307px;
-    margin: 25px 0 0 0;
+  width: 210px;
+  height: 307px;
+  margin: 25px 0 0 0;
 }
 .contact-us {
-    background: white;
-    padding: 0 0 40px 0;
+  background: white;
+  padding: 0 0 40px 0;
 }
 .contact-us .title-pricing h1 {
-    color: black;
+  color: black;
 }
 .content-pri-l h2 {
-
 }
 .content-pri-l form {
-    padding: 20px;
-    border: 1px solid #cecece;
-    border-radius: 5px;
-    width: 50%;
-    box-shadow: 0px 0px 6px 0px #aeaeae;
-    margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: 0px 0px 6px 0px #aeaeae;
+  margin: 0 auto;
 }
 .content-pri-l input {
-    width: 100%;
-    outline: none;
-    border-radius: 5px;
-    padding: 6px;
-    margin: 10px 0 0 0;
-    border: none;
-    background: #f1f1f1;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  padding: 6px;
+  margin: 10px 0 0 0;
+  border: none;
+  background: #f1f1f1;
 }
 .content-pri-l {
-    width: 50%;
+  width: 50%;
 }
 .content-pri-l textarea {
-    outline: none;
-    border-radius: 5px;
-    padding: 6px;
-    border: none;
-    background: #f1f1f1;
-    max-width: 335px;
-    min-height: 140px;
-    min-width: 240px;
-    max-height: 300px;
-    margin: 10px 0 0 0;
-    width: 100%;
+  outline: none;
+  border-radius: 5px;
+  padding: 6px;
+  border: none;
+  background: #f1f1f1;
+  max-width: 335px;
+  min-height: 140px;
+  min-width: 240px;
+  max-height: 300px;
+  margin: 10px 0 0 0;
+  width: 100%;
 }
 .content-pri-l button {
-    padding: 10px 60px;
-    margin: 20px 0;
-    border-radius: 10px;
-    background: var(--color-background);
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: white;
+  padding: 10px 60px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background: var(--color-background);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
 }
 .content-pri-r {
-    width: 50%;
+  width: 50%;
 }
 .contact-r {
-    display: flex;
-    padding: 25px 0;
-    justify-content: space-around;
+  display: flex;
+  padding: 25px 0;
+  justify-content: space-around;
 }
 .contact-r i {
-    color: var(--color-background);
-    margin: 0 0 15px 0;
+  color: var(--color-background);
+  margin: 0 0 15px 0;
 }
 .contact-r p {
-    color: grey;
+  color: grey;
 }
-.map iframe{
-    width: 60%;
-    height: 170px;
+.map iframe {
+  width: 60%;
+  height: 170px;
 }
 .contact-social {
-    padding: 40px 70px;
-    text-align: left;
+  padding: 40px 70px;
+  text-align: left;
 }
 .contact-social a {
-    color: var(--color-background);
-    margin: 10px;
-    font-size: 25px;
+  color: var(--color-background);
+  margin: 10px;
+  font-size: 25px;
 }
 footer {
-    display: flex;
-    padding: 5% 10%;
-    background: #10163a;
-    color: white;
-    overflow: hidden;
+  display: flex;
+  padding: 5% 10%;
+  background: #10163a;
+  color: white;
+  overflow: hidden;
 }
 .table {
-    width: 70%;
-    text-align: left;
+  width: 70%;
+  text-align: left;
 }
-.table th {  
-    font-size: 20px;    
-    color: white;
+.table th {
+  font-size: 20px;
+  color: white;
 }
 .table a {
-    color: white;
-    margin: 18px 0 0 0;
-    display: inline-block;
+  color: white;
+  margin: 18px 0 0 0;
+  display: inline-block;
 }
 
 .footer-r {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .footer-r div {
-    width: 100%;
+  width: 100%;
 }
 .footer-r i {
-    font-size: 30px;
-    margin: 0 10px 0 0;
+  font-size: 30px;
+  margin: 0 10px 0 0;
 }
 .social-ft {
-    justify-content: end;
+  justify-content: end;
 }
 .targetmenu {
-    display: none;
+  display: none;
 }
 .delete {
-    display: none;
+  display: none;
+}
+.latest1 input {
+  margin: 0 10px;
+  height: 40px;
+  background: #cecece;
+  border: none;
+  border-radius: 100px;
+  width: 250px;
+  padding: 0 0 0 10px;
+  outline: none;
 }
