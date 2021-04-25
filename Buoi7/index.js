@@ -17,7 +17,7 @@ let arr2 = [];
 function cauHai(){
     let soN2 = document.getElementById("soN2").value;
     console.log(soN2);
-    for(let i = 0; i <= soN2; i++){
+    for(let i = 1; i <= soN2; i++){
         if( i % 2 == 1){
             console.log(i);
             arr2.push(i);
@@ -34,7 +34,7 @@ let arr3 = [];
 function cauBa(){
     let soN3 = document.getElementById("soN3").value;
     console.log(soN3);
-    for(let i = 0; i <= soN3; i++){
+    for(let i = 1; i <= soN3; i++){
         if( i % 2 == 0){
             console.log(i);
             arr3.push(i);
